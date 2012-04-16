@@ -14,6 +14,9 @@
 				<groupId>com.lazerycode.jmeter</groupId>
 				<artifactId>jmeter-maven-plugin</artifactId>
 				<version>1.4.1</version>
+				<configuration>
+					<testResultsTimestamp>false</testResultsTimestamp>
+				</configuration>
 				<executions>
 					<execution>
 						<id>jmeter-tests</id>
